@@ -33,6 +33,11 @@ This project:
     python weather_extract.py
     ```
 
+5. Run API (optional):
+    ```bash
+    uvicorn api:app --reload
+    ```
+    
 ## ✅ Output Example
 ✅ London | Temp: 22.3°C | Humidity: 55%
 ✅ Chennai | Temp: 31.0°C | Humidity: 70%
